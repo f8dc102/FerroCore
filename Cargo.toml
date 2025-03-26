@@ -1,0 +1,23 @@
+[workspace]
+resolver = "3"
+members = [
+    "libs/auth",
+    "libs/comment",
+    "libs/feed",
+    "libs/follow",
+    "libs/graphql", "libs/like",
+    "libs/media",
+    "libs/notification",
+    "libs/post",
+    "libs/shared",
+    "libs/user",
+    "services/auth-api",
+    "services/comment-api",
+    "services/feed-api",
+    "services/follow-api", "services/like-api",
+    "services/media-api",
+    "services/notification-api",
+    "services/post-api",
+    "services/search-api",
+    "services/user-api",
+]
